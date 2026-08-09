@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    primeiro plano convertido de app/src/app-icon.svg
+    as coordenadas da fonte são ajustadas ao canvas do ícone adaptativo
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <group
+        android:scaleX="0.2109375"
+        android:scaleY="0.2109375">
+
+        <!-- sombra sólida -->
+        <path
+            android:fillColor="#000000"
+            android:pathData="M155.8429,97.2143 H380.5857 A58.6286,58.6286 0,0 1,439.2143,155.8429 V380.5857 A58.6286,58.6286 0,0 1,380.5857,439.2143 H155.8429 A58.6286,58.6286 0,0 1,97.2143,380.5857 V155.8429 A58.6286,58.6286 0,0 1,155.8429,97.2143 Z" />
+
+        <!-- base coral -->
+        <path
+            android:fillColor="#FF5733"
+            android:pathData="M143.6286,85 H368.3714 A58.6286,58.6286 0,0 1,427,143.6286 V368.3714 A58.6286,58.6286 0,0 1,368.3714,427 H143.6286 A58.6286,58.6286 0,0 1,85,368.3714 V143.6286 A58.6286,58.6286 0,0 1,143.6286,85 Z" />
+
+        <!-- contorno da fonte -->
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M143.6286,88.6643 H368.371 A54.9643,54.9643 0,0 1,423.3353,143.6286 V368.371 A54.9643,54.9643 0,0 1,368.371,423.3353 H143.6286 A54.9643,54.9643 0,0 1,88.6643,368.371 V143.6286 A54.9643,54.9643 0,0 1,143.6286,88.6643 Z"
+            android:strokeColor="#000000"
+            android:strokeWidth="7.32857" />
+
+        <!-- figura circular e recorte interno -->
+        <path
+            android:fillColor="#000000"
+            android:pathData="M234.24,255.62 A37.62,37.62 0,1 1,159,255.62 A37.62,37.62 0,1 1,234.24,255.62 Z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M186.251,255.3 A13.68,13.68 0,1 1,158.891,255.3 A13.68,13.68 0,1 1,186.251,255.3 Z" />
+
+        <!-- seta central -->
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M321.391,224.62 L278.391,255.62 L321.391,282.62"
+            android:strokeColor="#000000"
+            android:strokeLineCap="butt"
+            android:strokeLineJoin="miter"
+            android:strokeWidth="25" />
+
+        <!-- dobra branca -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M341.5,370.814 C341.5,354.624 354.624,341.5 370.814,341.5 H427 V427 H341.5 V370.814 Z" />
+        <group>
+            <clip-path
+                android:pathData="M341.5,370.814 C341.5,354.624 354.624,341.5 370.814,341.5 H427 V427 H341.5 V370.814 Z" />
+            <path
+                android:fillColor="#000000"
+                android:pathData="M334.171,370.814 C334.171,350.577 350.577,334.171 370.814,334.171 H427 V348.829 H370.814 C358.672,348.829 348.829,358.672 348.829,370.814 H334.171 Z M427,427 H341.5 H427 M334.171,427 V370.814 C334.171,350.577 350.577,334.171 370.814,334.171 V348.829 C358.672,348.829 348.829,358.672 348.829,370.814 V427 H334.171 Z M427,341.5 V427 V341.5" />
+        </group>
+    </group>
+</vector>

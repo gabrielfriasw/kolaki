@@ -1,0 +1,52 @@
+name: Relatar um bug
+description: Informe um comportamento incorreto ou inesperado.
+title: "[bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: Não inclua fotos pessoais, chaves ou outros dados sensíveis.
+  - type: input
+    id: version
+    attributes:
+      label: Versão do KolaKi
+      placeholder: 1.0.0
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Aparelho e Android
+      placeholder: Pixel 8, Android 16
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Passos para reproduzir
+      placeholder: Descreva o caminho completo até o problema.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Resultado esperado
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Resultado obtido
+    validations:
+      required: true
+  - type: dropdown
+    id: media
+    attributes:
+      label: Tipo de figurinha
+      options:
+        - Imagem estática
+        - GIF animado
+        - Não se aplica
+    validations:
+      required: true

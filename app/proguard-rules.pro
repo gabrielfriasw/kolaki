@@ -1,0 +1,1 @@
+-keep class com.kolvexo.kolaki.provider.StickerContentProvider { *; }
