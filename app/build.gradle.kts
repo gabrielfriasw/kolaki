@@ -34,6 +34,11 @@ android {
             "CONTENT_PROVIDER_AUTHORITY",
             "\"${applicationId}.stickercontentprovider\"",
         )
+        buildConfigField(
+            "String",
+            "REPOSITORY_URL",
+            "\"https://github.com/gabrielfriasw/kolaki\"",
+        )
         manifestPlaceholders["contentProviderAuthority"] =
             "${applicationId}.stickercontentprovider"
     }
