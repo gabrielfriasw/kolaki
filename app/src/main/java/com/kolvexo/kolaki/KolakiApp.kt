@@ -200,14 +200,14 @@ fun KolakiApp(repository: PackRepository, preferences: AppPreferences) {
                     onBack = { nav.popBackStack() },
                     onThemeChange = { scope.launch { preferences.setTheme(it) } },
                     onAbout = { nav.navigate(Routes.About) },
-                    onSourceCode = { openUrl("https://github.com/gabrielfriasw/kolaki") },
+                    onSourceCode = { openUrl(BuildConfig.REPOSITORY_URL) },
                     onLicenses = { nav.navigate(Routes.Licenses) },
                 )
             }
             composable(Routes.About) {
                 AboutScreen(
                     onBack = { nav.popBackStack() },
-                    onGitHub = { openUrl("https://github.com/gabrielfriasw/kolaki") },
+                    onGitHub = { openUrl(BuildConfig.REPOSITORY_URL) },
                 )
             }
             composable(Routes.Licenses) {
