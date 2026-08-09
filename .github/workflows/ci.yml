@@ -35,7 +35,7 @@ jobs:
         uses: gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c
 
       - name: instalar a plataforma android
-        run: sdkmanager "platforms;android-37" "build-tools;37.0.0"
+        run: "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" "platforms;android-37" "build-tools;37.0.0"
 
       - name: validar e compilar
         run: ./gradlew testDebugUnitTest lintDebug assembleDebug --stacktrace
